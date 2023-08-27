@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/EG-en-20221017-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+/*body::after {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: rgba(0, 0, 0, 50%);
+}*/
+
+.main {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main .first {
+    flex-basis: 70%;
+}
+
+.main .second {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.main .third {
+    display: flex;
+    align-items: center;
+    flex-basis: 10%;
+}
+
+.main .second select {
+    background: url(img/world.png);
+    background-size: 20px;
+    background-position: 2px;
+    background-color: black;
+    color: white;
+    padding: 10px 8px 10px 20px;
+    background-repeat: no-repeat;
+    outline: 1px solid white;
+    border-radius: 5%;
+    display: flex;
+}
+
+.third button {
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 8%;
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    padding: 6px 0 0 11px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.container .heading {
+    flex-basis: 40%;
+}
+
+.container .heading h1 , h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container .heading h1 {
+    font-size: 60px;
+}
+
+.container .heading h2 {
+    font-size: 31px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.creation p {
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .e-mail input {
+    width: 600px;
+    height: 7vh;
+}
+
+.form .btn button {
+    width: 150px;
+    height: 7vh;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    padding: 8px 0 0 11px;
+}
